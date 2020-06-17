@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>/*** Version Logs ***/
+/*
+ Linux Playground Version 2.0
+ Author: Zijian Zhao
+ GitHub: https://github.com/JackZhao98
+ Last update: May 15
+ 
+ - Version 2.0 (May 15)
+ All tasks have been assigned. 
+ Estimated experience time for a Linux beginner: 10 - 15 minutes.
+ Estimated experience time for an experienced Linux user - 3 minutes.
+ 
+ 
+ - Version 1.1 (May 14)
+ Several adjustment to echo, now supports file redirector:
+ e.x.  `echo "hello, world" &gt; a (this will rewrite file "a")
+ or:   `echo hello &gt;&gt; a (this will concatanate to file "a")
+ Works just like real Linux. (if no file, it creates one!)
+ 
+ - Version 1.0 (May 13)
+ Add class `InputDelegate`
+ * Able to parse user input to flags and optargs
+ * Terminal Delegate class helper
+ 
+ TerminalDelegate reworked.
+ * More organized
+ * Seamlessly working with `FileSystem` class
+ * Handle input with the help of `InputDelegate`
+ 
+ FileSystem Complete. All commands should work by now.
+ 
+ TerminalView:  Now using new font `Monospaced`
+ 
+ - Version 0.6 (May 11)
+ Updated the main view to `ScrollView`, now supports endless
+ commandlines on the screen before your RAM explodes.
+ 
+ - Version 0.5 (May 11)
+ Added a lot of function supports to `FileSystem` module.
+ --- New Commands ---
+ cd [PATH] - Change directory. 
+ ls [-al] [PATH] - display contents in current directory
+ chmod [+rwx] [-rwx] [PATH/FILE] - change mode to a directory or file
+ pwd - print working directory
+ touch [PATH/TO/FILENAME] - Create a new file to designated directory
+ mkdir [PATH/PATH] - Create a new directory to desgnated directory
+ 
+ - Version 0.4 Update (May 9)
+ *** Introducing `FileSystem` ***
+ This is a n-ary tree data structure which stores directory
+ and file information that simulates some basic functionalities
+ of file system. It also supports soft links `./` and `../`. 
+ Due to limit amount of time, and the purpose of this program, 
+ root directory will be limited to user's home directory, which 
+ displays as `~/`. ANY path start with `/` will be treated as home
+ directory even it represents the root directory in real world.
+ 
+ - Version 0.3 Update (May 8)
+ Added `TermIO` class. The program now can recognize a few linux
+ commands, including `whoami`, `help`, `echo`, `clear`, `exit`.
+ Each command will call up a function to handle argument (if supported)
+ and update the `CommandLine List`, to output the result in the next
+ view update. Also, termIO will prompt user to setup username and
+ password just like a real Linux System.
+ 
+ - Version 0.2 Update (May 7)
+ Added SingleLineView, CommandLine class. These classes helps organize
+ user commands and console output. Terminal View class just need to output
+ whatever current `SingleLineView` is. 
+ 
+ - Version 0.1.1 Update (May 6)
+ Enables dynamic SwiftUI text view. The scene now can outputs
+ various amount of commands and outputs with correct layout
+ 
+ - Version 0.1 Update (May 6)
+ Setup SwiftUI layout. The View module is able to display
+ user input and console output in different colors.
+ 
+ - Version 0
+ Got an idea from SwiftPlayground, why not create an interactive learning
+ environment for Linux? (4:00 am, May 6)
+ */
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 3129}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>Start()
+</string>
+			<key>ModifiedRange</key>
+			<string>{3130, 8}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

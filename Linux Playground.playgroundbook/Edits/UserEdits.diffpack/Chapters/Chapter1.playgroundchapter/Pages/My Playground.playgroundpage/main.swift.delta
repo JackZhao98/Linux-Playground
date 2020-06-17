@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>/*
+ *** PLEASE READ FIRST ***
+ 
+ *** IMPORTANT NOTES ***
+ INPUT: 
+ The TextField in SwiftUI does not comply to the UIKit method
+ `becomeFirstResponder()`, and I failed to create a Wrapped UIViewRepresentable
+ custome UITextField to replace the current one that performs similarly. So, keyboard
+ input will not be immediately listened when the TextField is appeared or refreshed. Hence, 
+ it is necessary to use mouse to select the TextField before typing anything, for now.
+ I know it's really buggy, my apologies. 
+ 
+ ALSO:
+ This is only a dumbed down version Linux Simulator, 
+ not all operations that normally works in Linux works here.
+ For example:
+ `rm -r -d` Does not work, use `rm -rd` instead
+ 
+ Thank you.
+ */
+
+
+Start()
+
+// Linux Playground Version 2.0
+// Author: Zijian Zhao
+// GitHub: https://github.com/JackZhao98
+// You will be prompted to finish several Tasks inside this LinuxPlayground, which simulates a Linux environment 
+// that supports a few commands for you to play with.
+// Start the task by typing `hint` then hit enter.
+// Begin your journey!
+// Estimated experience time for a Linux beginner: 10 - 15 minutes.
+// Estimated experience time for an experienced Linux user - 3 minutes.
+// ----------------------------------------------------------------------------------- Press this button, say goodbye to GUI ---&gt;
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1339}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

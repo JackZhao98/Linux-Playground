@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseContentIdentifier</key>
+	<string>com.apple.playgrounds.blank</string>
+	<key>BaseContentVersion</key>
+	<string>1.0</string>
+	<key>ContentType</key>
+	<string>PlaygroundBookUserEdit</string>
+	<key>Diffs</key>
+	<dict>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/01251602-3B95-49A5-93EF-010D4385B721.playgroundpage/UserManifest.plist</key>
+		<string>Added</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/01251602-3B95-49A5-93EF-010D4385B721.playgroundpage/main.swift</key>
+		<string>Modified</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist</key>
+		<string>Added</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</key>
+		<string>Modified</string>
+		<key>Chapters/Chapter1.playgroundchapter/UserManifest.plist</key>
+		<string>Added</string>
+		<key>UserModules/Module.playgroundmodule/Sources/Core.swift</key>
+		<string>Added</string>
+		<key>UserModules/Module.playgroundmodule/Sources/Extensions.swift</key>
+		<string>Added</string>
+		<key>UserModules/Module.playgroundmodule/Sources/FileSystem.swift</key>
+		<string>Added</string>
+		<key>UserModules/Module.playgroundmodule/Sources/InputDelegate.swift</key>
+		<string>Added</string>
+		<key>UserModules/Module.playgroundmodule/Sources/SingleLineView.swift</key>
+		<string>Added</string>
+		<key>UserModules/Module.playgroundmodule/Sources/TerminalDelegate.swift</key>
+		<string>Added</string>
+		<key>UserModules/Module.playgroundmodule/Sources/TerminalView.swift</key>
+		<string>Added</string>
+		<key>UserModules/UserModule.playgroundmodule/Sources/SharedCode.swift</key>
+		<string>Removed</string>
+	</dict>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+	<key>UpdatedContentVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>
