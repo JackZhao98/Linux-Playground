@@ -1,5 +1,5 @@
 # Linux Playground
-### Apple WWDC 2020 Swift Student Challenge (Accepted)
+### [Apple WWDC 2020 Swift Student Challenge](https://developer.apple.com/wwdc20/swift-student-challenge/) (Accepted)
 
 ## Insights
 The idea of my project - LinuxPlayground, was inspired by Apple's Swift Playground. Similarly, I wish to build an interactive learning environment for Linux beginners, allowing starters to learn from exercise, with supervision and guidance, rather than throwing a pile of GNU Linux manuals to beginners and ask them to do tasks in Linux they have never done before. 
